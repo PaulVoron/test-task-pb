@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500&display=swap');
+
+:root {
+	--clr-dark: #125125;
+	--clr-light: #fefefe;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--clr-dark);
+	font-family: 'Ubuntu', serif;
+}
+
+body {
+	background-color: var(--clr-light);
+}
+
+li {
+	list-style: none;
+}
+
+a:link { text-decoration: none; }
+
+.spinner {
+  margin: auto;
 }
