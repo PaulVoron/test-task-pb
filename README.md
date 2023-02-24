@@ -6,6 +6,7 @@ The technologies used include:
 - Redux Toolkit
 - React Router
 - Axios
+- TypeScript
 
 The layout is responsive.
 The following libraries were used for styling:
